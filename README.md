@@ -85,11 +85,9 @@ Mi pasión es asegurar que sistemas complejos funcionen correctamente bajo alta 
 
 <div align="center">
 
-![Fabián's GitHub Stats](https://github-readme-stats.vercel.app/api?username=FabianGallardo-coder&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FabianGallardo-coder&show_icons=true&theme=nord&include_all_commits=true)](https://github.com/FabianGallardo-coder)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FabianGallardo-coder&layout=compact&theme=tokyonight&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=FabianGallardo-coder&theme=tokyonight&hide_border=true)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FabianGallardo-coder&layout=compact&theme=nord)](https://github.com/FabianGallardo-coder?tab=repositories)
 
 </div>
 
@@ -99,7 +97,7 @@ Mi pasión es asegurar que sistemas complejos funcionen correctamente bajo alta 
 
 <div align="center">
 
-![trophy](https://github-profile-trophy.vercel.app/?username=FabianGallardo-coder&theme=tokyonight&no-frame=true&no-bg=true&column=3)
+[![GitHub Profile Trophy](https://github-profile-trophy.vercel.app/?username=FabianGallardo-coder&theme=nord&row=1&column=3&no-frame=true)](https://github.com/FabianGallardo-coder)
 
 </div>
 
@@ -242,16 +240,6 @@ Siempre estoy disponible para:
 - ✅ **Consultoría en Quality Assurance**
 - ✅ **Mentorías en Testing y Best Practices**
 - ✅ **Open Source contributions**
-
----
-
-## 🎨 Actividad en GitHub
-
-<div align="center">
-
-![Snake animation](https://github.com/FabianGallardo-coder/FabianGallardo-coder/raw/output/github-contribution-grid-snake-dark.svg)
-
-</div>
 
 ---
 
