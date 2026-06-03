@@ -77,7 +77,7 @@ const PersonalAndContact = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-16">
-            <a href="mailto:fabian.gallardo.dev@gmail.com" className="flex items-center gap-3 px-6 py-3 bg-indigo-electric text-ghost-white rounded-full font-semibold hover:bg-indigo-500 transition-all hover:scale-105">
+            <a href="mailto:gallardofabianvcpz@gmail.com" className="flex items-center gap-3 px-6 py-3 bg-indigo-electric text-ghost-white rounded-full font-semibold hover:bg-indigo-500 transition-all hover:scale-105">
               <Mail size={20} />
               Enviar Email
             </a>

@@ -1,73 +1,148 @@
-# React + TypeScript + Vite
+# Fabián Gallardo - Portfolio de Alto Impacto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Backend Developer | QA Engineer | Data Automation Specialist**
 
-Currently, two official plugins are available:
+Portafolio profesional moderno de Fabián Gallardo con enfoque en Backend Development, Quality Assurance y Automatización de Datos. Diseño Minimalista Profesional (Zenith) con tecnología React 18, TypeScript y Tailwind CSS v4.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Características
 
-## React Compiler
+### Secciones Implementadas
+- **Hero Section** - Declaración de valor con CTA
+- **Sobre Mí** - Storytelling: Aviónica, Aikidō y Backend Engineering
+- **Stack Tecnológico** - 3 categorías: Maestría, Backend, QA & Testing
+- **Trayectoria Profesional** - Timeline interactivo con 3+ posiciones
+- **Proyectos Destacados** - 4 casos de estudio:
+  - Bit-friends (Desktop AI, Rust/Tauri)
+  - Dragons-ia (RPG AI Engine, Python/FastAPI)
+  - Enterprise Data Flow (Apache NiFi)
+  - Custom Backend System (PHP/MySQL)
+- **Validación Técnica** - 6+ certificaciones profesionales
+- **Personal & Contact** - Secciones de Aikidō, Gaming y contacto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Tecnología
+- ⚛️ **React 18** - UI moderna
+- 🎨 **TypeScript** - Tipado seguro
+- ⚡ **Vite** - Build rápido
+- 🎯 **Tailwind CSS v4** - Estilos optimizados
+- ✨ **Framer Motion** - Animaciones fluidas
+- 🎭 **Lucide React** - Iconografía profesional
 
-## Expanding the ESLint configuration
+### Diseño
+- **Paleta Zenith:** Deep Space (#0A0A0B), Indigo Electric (#6366F1), Ghost White (#F8FAFC)
+- **Estética:** Zen Industrial minimalista
+- **Tipografía:** Inter + JetBrains Mono
+- **Responsive:** Mobile-first (1 → 3 columnas)
+- **Animaciones:** Scroll-triggered con Framer Motion
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Despliegue
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Localmente
+```bash
+# Desarrollo
+npm run dev
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Producción
+npm run build
+node server.js
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Render
+```bash
+# El repositorio está configurado para despliegue automático en Render
+# URL: https://fabianGallardo.onrender.com
 ```
+
+### Vercel / Netlify
+```bash
+# Vercel
+vercel deploy --prod
+
+# Netlify
+netlify deploy --prod --dir=dist
+```
+
+## 📋 Stack de Desarrollo
+
+| Categoría | Herramientas |
+|-----------|-------------|
+| **Frontend** | React 18, TypeScript, Vite |
+| **Estilos** | Tailwind CSS v4, Tailwind Merge, CLSX |
+| **Animaciones** | Framer Motion 12+ |
+| **Iconografía** | Lucide React |
+| **Linting** | ESLint, TypeScript ESLint |
+| **Build** | Vite 8, Tailwind Plugin |
+
+## 📊 Métrica de Performance
+
+- **Build:** 646ms
+- **Bundle CSS:** 19.87 kB (gzip: 4.46 kB)
+- **Bundle JS:** 338.11 kB (gzip: 106.16 kB)
+- **HTML:** 0.46 kB (gzip: 0.29 kB)
+
+## 🔍 QA Status
+
+✅ **Build:** 0 errores TypeScript  
+✅ **Linting:** 0 warnings ESLint  
+✅ **Cobertura:** 100% del MASTER_BRIEF  
+✅ **Responsividad:** Testeado en múltiples resoluciones  
+✅ **Accesibilidad:** Cumple estándares básicos  
+✅ **Performance:** Optimizado para producción  
+
+Ver `QA_REPORT.md` para detalles completos.
+
+## 📱 Contacto
+
+- **Email:** gallardofabianvcpz@gmail.com
+- **GitHub:** [FabianGallardo-coder](https://github.com/FabianGallardo-coder)
+- **LinkedIn:** [fabian-gallardo](https://linkedin.com/in/fabian-gallardo)
+
+## 📄 Documentación
+
+- `MASTER_BRIEF.md` - Especificaciones del proyecto
+- `PORTFOLIO_AUDIT.md` - Análisis inicial
+- `QA_REPORT.md` - Reporte completo de pruebas
+- `DEPLOYMENT.md` - Guía de despliegue
+
+## 📦 Estructura del Proyecto
+
+```
+portfolio-app/
+├── src/
+│   ├── components/
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Certifications.tsx
+│   │   └── PersonalAndContact.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── lib/
+├── dist/                 # Build de producción
+├── public/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── vercel.json
+├── server.js             # Servidor Express para Render
+└── README.md
+```
+
+## 🛠️ Configuración de Render
+
+El proyecto incluye `server.js` preconfigurado para Render:
+
+1. Conecta tu repositorio GitHub en Render
+2. Selecciona "Node" como servicio
+3. Build Command: `npm run build`
+4. Start Command: `node server.js`
+5. ¡Listo! Se desplegará automáticamente
+
+## 📝 Licencia
+
+© 2026 Fabián Gallardo. Todos los derechos reservados.
+
+---
+
+**Construido con ❤️ usando React, TypeScript y Tailwind CSS**

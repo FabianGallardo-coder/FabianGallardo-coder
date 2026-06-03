@@ -41,7 +41,7 @@ const Hero = () => {
             <a href="https://linkedin.com/in/fabian-gallardo" target="_blank" rel="noreferrer" className="p-2 text-slate-muted hover:text-ghost-white transition-colors">
               <Briefcase size={24} />
             </a>
-            <a href="mailto:fabian.gallardo.dev@gmail.com" className="p-2 text-slate-muted hover:text-ghost-white transition-colors">
+            <a href="mailto:gallardofabianvcpz@gmail.com" className="p-2 text-slate-muted hover:text-ghost-white transition-colors">
               <Mail size={24} />
             </a>
           </div>

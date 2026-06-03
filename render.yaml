@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: fabian-gallardo-portfolio
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    regions:
+      - oregon

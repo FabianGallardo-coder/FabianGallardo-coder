@@ -1,13 +1,30 @@
 {
-  "name": "portfolio-app",
+  "name": "fabian-gallardo-portfolio",
+  "description": "Portafolio de Alto Impacto - Backend Developer & QA Engineer | React 18 + TypeScript + Tailwind CSS",
+  "author": "Fabián Gallardo <gallardofabianvcpz@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FabianGallardo-coder/portfolio.git"
+  },
+  "homepage": "https://fabianGallardo.onrender.com",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "keywords": [
+    "portfolio",
+    "backend",
+    "qae",
+    "typescript",
+    "react",
+    "vite",
+    "tailwind"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
@@ -32,5 +49,9 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
