@@ -2,7 +2,17 @@
 
 > **Backend Developer | QA Engineer | Data Automation Specialist**
 
-Portafolio profesional moderno de Fabián Gallardo con enfoque en Backend Development, Quality Assurance y Automatización de Datos. Diseño Minimalista Profesional (Zenith) con tecnología React 18, TypeScript y Tailwind CSS v4.
+Portafolio profesional moderno y de código abierto con enfoque en Backend Development, Quality Assurance y Automatización de Datos. Diseño Minimalista Profesional (Zenith) con tecnología React 18, TypeScript y Tailwind CSS v4.
+
+## 📋 Tabla de Contenidos
+
+- [Características](#-características)
+- [Tecnología](#-tecnología)
+- [Diseño](#-diseño)
+- [Despliegue](#-despliegue)
+- [Contribuir](#-contribuir)
+- [Licencia](#-licencia)
+- [Contacto](#-contacto)
 
 ## 🎯 Características
 
@@ -139,10 +149,41 @@ El proyecto incluye `server.js` preconfigurado para Render:
 4. Start Command: `node server.js`
 5. ¡Listo! Se desplegará automáticamente
 
+## 🤝 Contribuir
+
+¡Las contribuciones son bienvenidas! Por favor:
+
+1. Lee [CONTRIBUTING.md](CONTRIBUTING.md)
+2. Sigue nuestro [Código de Conducta](CODE_OF_CONDUCT.md)
+3. Revisa nuestra [Política de Seguridad](SECURITY.md)
+
 ## 📝 Licencia
 
-© 2026 Fabián Gallardo. Todos los derechos reservados.
+Este proyecto está licenciado bajo la **Licencia MIT** - ver [LICENSE](LICENSE) para detalles.
+
+### Resumen MIT
+- ✅ Uso comercial
+- ✅ Modificación
+- ✅ Distribución
+- ✅ Uso privado
+- ❌ Responsabilidad
+- ❌ Garantía
+
+## 📞 Contacto
+
+- **Email:** gallardofabianvcpz@gmail.com
+- **GitHub:** [@FabianGallardo-coder](https://github.com/FabianGallardo-coder)
+- **LinkedIn:** [fabian-gallardo](https://linkedin.com/in/fabian-gallardo)
+
+## 🙏 Agradecimientos
+
+Construido con:
+- ❤️ React 18
+- 🎨 TypeScript 
+- ⚡ Vite
+- 🎯 Tailwind CSS v4
+- ✨ Framer Motion
 
 ---
 
-**Construido con ❤️ usando React, TypeScript y Tailwind CSS**
+**Construido con ❤️ por Fabián Gallardo | © 2026 | MIT License**

@@ -4,7 +4,7 @@ import { Code2, Layout, Database } from 'lucide-react';
 const projects = [
   {
     title: "Bit-friends",
-    description: "Ecosistema de escritorio impulsado por AI con estética retro. Implementación de arquitectura híbrida entre LLMs locales (Ollama) y nube.",
+    description: "Ecosistema de escritorio con estética retro. Implementación de arquitectura híbrida entre LLMs locales (Ollama) y procesamiento en nube.",
     stack: ["Rust", "Tauri v2", "React 19", "TypeScript", "Ollama"],
     link: "https://github.com/FabianGallardo-coder/bit-friends",
     impact: "Desarrollo de una interfaz borderless transparente con integración nativa de OS y un ciclo de vida de software profesional (QA Reports & Dev Guides).",
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Dragons-ia",
-    description: "Motor de juego de rol impulsado por AI con reglas automatizadas de D&D 5e. Backend asíncrono la escala.",
+    description: "Motor de juego de rol con reglas automatizadas de D&D 5e. Backend asíncrono escalable con arquitetura robusta.",
     stack: ["Python 3.11", "FastAPI", "SQLAlchemy 2.0", "PostgreSQL", "Pytest"],
     link: "https://github.com/FabianGallardo-coder/dragons-ia",
     impact: "Logro de 100% de cobertura de tests (62/62 passing) y una arquitectura asíncrona para respuestas de API de baja latencia.",

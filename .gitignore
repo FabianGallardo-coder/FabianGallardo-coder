@@ -1,5 +1,13 @@
-# Logs
-logs
+# ========== BUILD & DEPENDENCIES ==========
+node_modules/
+dist/
+dist-ssr/
+*.local
+build/
+coverage/
+
+# ========== LOGS ==========
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +15,62 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ========== ENVIRONMENT VARIABLES ==========
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
+# ========== IDE & EDITOR CONFIGURATION ==========
 .vscode/*
 !.vscode/extensions.json
-.idea
+!.vscode/settings.json
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
 .DS_Store
+.AppleDouble
+.LSOverride
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ========== SYSTEM FILES ==========
+Thumbs.db
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+.env.example.local
+
+# ========== IDE TEMP FILES ==========
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# ========== OS FILES ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ========== TESTING ==========
+.nyc_output/
+coverage/
+*.lcov
+
+# ========== MISC ==========
+.cache/
+.firebase/
+.netlify/
+.vercel/
+.turbo/
+dist-types/
